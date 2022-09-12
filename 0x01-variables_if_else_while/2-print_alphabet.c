@@ -1,32 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 /**
- *main - print if the number is positive or negative
+ *main -prints all alphabet
  *
  *Return: return 0 succesful
  */
 
 int main(void)
 {
-	int n;
+	char ch;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes here */
-	if (n > 0)
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-	printf("%i is positive\n", n);
+	putchar(ch);
 }
-	else if (n == 0)
-{
-	printf("%i is zero\n", n);
-}
-	else if (n < 0)
-{
-	printf("%i is negative\n", n);
-}
+	putchar('\n');
 	return (0);
 }
-
