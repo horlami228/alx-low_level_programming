@@ -13,4 +13,5 @@ int mul(int, int);
 void print_numbers(void);
 void print_number(int n);
 int _putchar(char);
+void print_most_numbers(void);
 #endif /* MAIN_h */
