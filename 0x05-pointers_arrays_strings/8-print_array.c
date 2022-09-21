@@ -1,4 +1,5 @@
-include "main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
 * print_array - prints n element of array
@@ -19,5 +20,5 @@ void print_array(int *a, int n)
 			printf("%d", a[inc]);
 
 	}
-	putchar(10);
+	_putchar(10);
 }
