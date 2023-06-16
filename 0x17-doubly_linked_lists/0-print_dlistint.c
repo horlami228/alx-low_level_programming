@@ -10,7 +10,7 @@ size_t print_dlistint(const dlistint_t *h)
 {
     /* create a temporary variable */
 	const dlistint_t *temp = h;
-	unsigned int count = 0;
+	size_t count = 0;
 
 	while (temp != NULL) /* Traverse through the list */
 {
