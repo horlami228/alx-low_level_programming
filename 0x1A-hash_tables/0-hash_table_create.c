@@ -20,14 +20,14 @@ hash_table_t *hash_table_create(unsigned long int size)
 	hash_table->size = size;
 
 	/* dynamically allocate memory for the array of linked list*/
-	hash_table->array = malloc(size * sizeof(hash_node_t*));
+	hash_table->array = malloc(size * sizeof(hash_node_t *));
 	if (hash_table->array == NULL)
 	{
 		free(hash_table);
 		return (NULL);
 	}
 
-	
+
 	i = 0;
 
 	while (i < size)
