@@ -25,7 +25,8 @@ hash_table_t *hash_table_create(unsigned long int size)
 		return (NULL);
 	}
 
-	int i = 0;
+	unsigned long int i;
+	i = 0;
 
 	while (i < size)
 	{
