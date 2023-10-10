@@ -42,7 +42,7 @@ int binary_search(int *array, size_t size, int value)
 	while (lb <= ub)
 	{
 		print_array(array, lb, ub + 1);
-
+		mid = (lb + ub) / 2;
 		if (value == array[mid])
 		{
 			return (mid);
